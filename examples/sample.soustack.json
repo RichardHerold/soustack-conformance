@@ -1,0 +1,20 @@
+{
+  "name": "example",
+  "version": "0.2.0",
+  "components": [
+    {
+      "id": "db",
+      "registry": "postgres",
+      "version": "16.0.0",
+      "config": {
+        "port": 5432
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "name": "healthcheck",
+      "steps": ["psql --version"]
+    }
+  ]
+}
