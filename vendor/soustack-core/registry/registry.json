@@ -1,0 +1,20 @@
+{
+  "version": "2025.12.0",
+  "components": {
+    "postgres": {
+      "summary": "PostgreSQL service",
+      "requiredConfig": ["port"],
+      "versions": ["16.0.0", "15.0.0"]
+    },
+    "redis": {
+      "summary": "Redis cache",
+      "requiredConfig": ["port"],
+      "versions": ["7.2.0", "7.0.0"]
+    },
+    "worker": {
+      "summary": "Background worker",
+      "requiredConfig": [],
+      "versions": ["1.0.0"]
+    }
+  }
+}

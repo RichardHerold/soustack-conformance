@@ -1,0 +1,21 @@
+{
+  "name": "soustack-conformance",
+  "version": "0.1.0",
+  "description": "Conformance runner for Soustack recipes and fixtures.",
+  "license": "MIT",
+  "bin": {
+    "conformance": "./bin/conformance.js"
+  },
+  "scripts": {
+    "test": "npm run conformance:fixtures",
+    "conformance:test": "node bin/conformance.js test \"examples/*.soustack.json\"",
+    "conformance:fixtures": "node bin/conformance.js fixtures"
+  },
+  "dependencies": {
+    "soustack-core": "file:vendor/soustack-core"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "commonjs"
+}

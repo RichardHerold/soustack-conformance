@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "components": [
+    {
+      "id": "database",
+      "registry": "postgres",
+      "version": "16.0.0",
+      "config": {
+        "port": 5432
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "name": "bootstrap",
+      "steps": ["echo setup"]
+    }
+  ]
+}

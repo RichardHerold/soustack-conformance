@@ -1,0 +1,8 @@
+{
+  "name": "soustack-core",
+  "version": "0.1.0",
+  "description": "Core validation utilities for Soustack recipes.",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs"
+}

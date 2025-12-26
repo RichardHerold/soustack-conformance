@@ -1,0 +1,20 @@
+{
+  "name": "unknown-service",
+  "version": "1.2.3",
+  "components": [
+    {
+      "id": "search",
+      "registry": "elasticsearch",
+      "version": "8.12.0",
+      "config": {
+        "port": 9200
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "name": "noop",
+      "steps": ["echo noop"]
+    }
+  ]
+}
